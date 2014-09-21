@@ -8,27 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		710883B319CE6C3800F39BDD /* FFConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 710883B219CE6C3800F39BDD /* FFConversion.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7108865019CE6CC900F39BDD /* libFFmpegWrapper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7108864D19CE6C9F00F39BDD /* libFFmpegWrapper.a */; };
 		7108865319CE6CE700F39BDD /* FFmpeg.h in Headers */ = {isa = PBXBuildFile; fileRef = 7108865119CE6CE700F39BDD /* FFmpeg.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7108865419CE6CE700F39BDD /* FFmpeg.m in Sources */ = {isa = PBXBuildFile; fileRef = 7108865219CE6CE700F39BDD /* FFmpeg.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		7108864C19CE6C9F00F39BDD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7108864819CE6C9E00F39BDD /* FFmpegWrapper.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D95F88D617E8C259000ADE35;
-			remoteInfo = FFmpegWrapper;
-		};
-		7108864E19CE6CBC00F39BDD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7108864819CE6C9E00F39BDD /* FFmpegWrapper.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D95F88D517E8C259000ADE35;
-			remoteInfo = FFmpegWrapper;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		710883AD19CE6C3800F39BDD /* FFConversion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FFConversion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,9 +18,9 @@
 		710883B219CE6C3800F39BDD /* FFConversion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFConversion.h; sourceTree = "<group>"; };
 		710883BB19CE6C3800F39BDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		710883BC19CE6C3800F39BDD /* FFConversionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFConversionTests.m; sourceTree = "<group>"; };
-		7108864819CE6C9E00F39BDD /* FFmpegWrapper.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FFmpegWrapper.xcodeproj; path = ../FFmpegWrapper/FFmpegWrapper.xcodeproj; sourceTree = "<group>"; };
 		7108865119CE6CE700F39BDD /* FFmpeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFmpeg.h; sourceTree = "<group>"; };
 		7108865219CE6CE700F39BDD /* FFmpeg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFmpeg.m; sourceTree = "<group>"; };
+		7198A62A19CE79BD00A6C546 /* FFmpegWrapper.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FFmpegWrapper.xcodeproj; path = FFmpegWrapper/FFmpegWrapper.xcodeproj; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +28,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7108865019CE6CC900F39BDD /* libFFmpegWrapper.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +37,7 @@
 		710883A319CE6C3800F39BDD = {
 			isa = PBXGroup;
 			children = (
-				7108864819CE6C9E00F39BDD /* FFmpegWrapper.xcodeproj */,
+				7198A62A19CE79BD00A6C546 /* FFmpegWrapper.xcodeproj */,
 				710883AF19CE6C3800F39BDD /* FFConversion */,
 				710883B919CE6C3800F39BDD /* FFConversionTests */,
 				710883AE19CE6C3800F39BDD /* Products */,
@@ -107,14 +88,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7108864919CE6C9E00F39BDD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7108864D19CE6C9F00F39BDD /* libFFmpegWrapper.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -142,7 +115,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				7108864F19CE6CBC00F39BDD /* PBXTargetDependency */,
 			);
 			name = FFConversion;
 			productName = FFConversion;
@@ -174,28 +146,12 @@
 			mainGroup = 710883A319CE6C3800F39BDD;
 			productRefGroup = 710883AE19CE6C3800F39BDD /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 7108864919CE6C9E00F39BDD /* Products */;
-					ProjectRef = 7108864819CE6C9E00F39BDD /* FFmpegWrapper.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				710883AC19CE6C3800F39BDD /* FFConversion */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		7108864D19CE6C9F00F39BDD /* libFFmpegWrapper.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libFFmpegWrapper.a;
-			remoteRef = 7108864C19CE6C9F00F39BDD /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		710883AB19CE6C3800F39BDD /* Resources */ = {
@@ -217,14 +173,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		7108864F19CE6CBC00F39BDD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FFmpegWrapper;
-			targetProxy = 7108864E19CE6CBC00F39BDD /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		710883BE19CE6C3800F39BDD /* Debug */ = {
@@ -321,17 +269,15 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					/Users/srosh/gits/mine/FFmpegWrapper/FFmpegWrapper,
+					"$(SRCROOT)/FFmpegWrapper/FFmpegWrapper",
 				);
 				INFOPLIST_FILE = FFConversion/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/srosh/gits/mine/FFmpegWrapper/Submodules/FFmpeg-iOS/dependencies/lib",
-					"/Users/srosh/gits/mine/FFmpegWrapper/**",
+					"$(SRCROOT)/FFmpegWrapper/**",
 				);
-				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -347,17 +293,15 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					/Users/srosh/gits/mine/FFmpegWrapper/FFmpegWrapper,
+					"$(SRCROOT)/FFmpegWrapper/FFmpegWrapper",
 				);
 				INFOPLIST_FILE = FFConversion/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/srosh/gits/mine/FFmpegWrapper/Submodules/FFmpeg-iOS/dependencies/lib",
-					"/Users/srosh/gits/mine/FFmpegWrapper/**",
+					"$(SRCROOT)/FFmpegWrapper/**",
 				);
-				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};

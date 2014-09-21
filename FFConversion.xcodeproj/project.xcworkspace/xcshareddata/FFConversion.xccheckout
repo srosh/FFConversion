@@ -6,6 +6,8 @@
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>BB6A8BAD-07B0-4910-88B0-3FB1AFDCC9DF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FFConversion</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>0BCB8DF023E6C27291EB83E7F62A3A4055C56C06</key>
@@ -14,24 +16,38 @@
 		<string>https://github.com/srosh/FFmpegWrapper.git</string>
 		<key>DA3225C64F00464E541795F9AAB591214DC5E6B2</key>
 		<string>https://github.com/chrisballinger/ffmpeg-ios-static-libs.git</string>
+		<key>E80887199E11653B7B892A1AF361BF081BB9EF94</key>
+		<string>https://github.com/srosh/FFConversion.git</string>
 	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FFConversion.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>0BCB8DF023E6C27291EB83E7F62A3A4055C56C06</key>
-		<string>FFmpegWrapperSubmodules/FFmpeg-iOS</string>
+		<string>../../../FFmpegWrapperSubmodules/FFmpeg-iOS</string>
 		<key>5E27CBA41412F60913279722722593371D861B06</key>
-		<string>FFmpegWrapper</string>
+		<string>../../../FFmpegWrapper</string>
 		<key>DA3225C64F00464E541795F9AAB591214DC5E6B2</key>
-		<string>FFmpegWrapperSubmodules/FFmpeg-iOS/ffmpeg-ios-static-libs</string>
+		<string>../../../FFmpegWrapperSubmodules/FFmpeg-iOS/ffmpeg-ios-static-libs</string>
+		<key>E80887199E11653B7B892A1AF361BF081BB9EF94</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/srosh/FFmpegWrapper.git</string>
+	<string>https://github.com/srosh/FFConversion.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>5E27CBA41412F60913279722722593371D861B06</string>
+	<string>E80887199E11653B7B892A1AF361BF081BB9EF94</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E80887199E11653B7B892A1AF361BF081BB9EF94</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FFConversion</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
